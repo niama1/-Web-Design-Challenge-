@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bootstrap Visualization Analysis</title>
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
+  <!--CSS Link-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--fontawesome kit Link-->
+  <script src="https://kit.fontawesome.com/7bbeb5516e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Navigation Section -->
+<nav class="navbar navbar-expand--expand-lg navbar-light bg-ligh">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"style="background-color: #32af7f;">Lattitude</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="nav navbar-nav navbar-left ml-auto">
+				<a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						plot
+					</a>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					<a class="dropdown-item" href="#">Max Temperature</a>
+					<a class="dropdown-item" href="#">Humidity</a>
+					<a class="dropdown-item" href="#">Cloudiness</a>
+					<a class="dropdown-item" href="#">Wind Speed</a>
+		        <div>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Comparison</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Data</a>
+			  </li>
+			</ul>	    								  
+		</div>  				  
+	</div>
+</nav>
+<div class="container">
+	<div class="row">
+            <div class="col-md-6"> 
+				<h1>Max Temperature</h1>
+			</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <a href="MaxTemp.html"><img src="Resources/assets/images/fig1.png" width="500px"
+                height="400px"></a>
+    </div>
+    <p>As expected,the weather becomes significantly warmer as a one approaches the equater (0 degree. Latitude). More interestingly,
+        however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may
+        be due to the tilt of the earth at the time of the year this data was gathered
+    </p>
+
+    <div class="col-md-6"> 
+        <h1>Visualization</h1>
+    </div>
+
+		<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+<script src="http://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>			  
+</body>
+</html>
